@@ -1,14 +1,15 @@
-package za.ac.cput.findyourpathwholeproject.service;
+package za.ac.cput.findyourpathwholeproject.service.Imp;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import za.ac.cput.findyourpathwholeproject.domain.Industry;
 import za.ac.cput.findyourpathwholeproject.repository.IndustryRepository;
+import za.ac.cput.findyourpathwholeproject.service.IndustryService;
 
 import java.util.List;
 
 @Service
-public class IndustryServiceImp implements IndustryService{
+public class IndustryServiceImp implements IndustryService {
     private final IndustryRepository industryService;
 
     @Autowired
